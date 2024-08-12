@@ -27,7 +27,7 @@ By combining these capabilities, Warlens aims to support conflict analysis, enha
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/warlens.git
+   git clone https://github.com/Tanisboxed/warlens.git
 
 ## Contributing
 We welcome contributions from the community. 
