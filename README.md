@@ -5,7 +5,7 @@ Warlens is a project aimed at using transfer learning to classify and identify e
 ## Description 
 Warlens leverages transfer learning to enhance the classification of events in conflict zones from imagery data. The project focuses on:
 - Event Identification: Using deep learning models to automatically detect and categorize various types of events, such as military actions, protests, and humanitarian activities.
-- Image Analysis: Applying advanced image processing techniques to extract relevant features and improve model accuracy.
+- Image Analysis: Applying advanced image processing techniques to extract relevant features and improve model accuracy. 
 - Real-Time Insights: Enabling faster and more accurate responses by providing timely information about ongoing events.
 - Adaptability: Utilizing pre-trained models and fine-tuning them for specific conflict zone scenarios, reducing the need for extensive training data.
 By combining these capabilities, Warlens aims to support conflict analysis, enhance situational awareness, and contribute to effective decision-making in conflict-affected areas.
