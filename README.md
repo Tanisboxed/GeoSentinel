@@ -1,37 +1,63 @@
 # GeoSentinel: Real-Time Conflict Surveillance and Crisis Mapping
 
-GeoSentinel is a project aimed at using transfer learning to classify and identify events in conflict zones. By leveraging advanced deep learning techniques, this project seeks to enhance the accuracy and efficiency of event classification, providing valuable insights for conflict analysis and response.
-
-## Description 
-GeoSentinel leverages transfer learning to enhance the classification of events in conflict zones from imagery data. The project focuses on:
-- Event Identification: Using deep learning models to automatically detect and categorize various types of events, such as military actions, protests, and humanitarian activities.
-- Image Analysis: Applying advanced image processing techniques to extract relevant features and improve model accuracy. 
-- Real-Time Insights: Enabling faster and more accurate responses by providing timely information about ongoing events.
-- Adaptability: Utilizing pre-trained models and fine-tuning them for specific conflict zone scenarios, reducing the need for extensive training data.
-By combining these capabilities, GeoSentinel aims to support conflict analysis, enhance situational awareness, and contribute to effective decision-making in conflict-affected areas.
+GeoSentinel is an advanced system for real-time conflict surveillance and crisis mapping using satellite imagery and conflict event data.
 
 ## Features
-- **Transfer Learning**: Utilizes pre-trained models to improve classification accuracy and reduce training time.
-- **Event Classification**: Identifies and categorizes different types of events occurring in conflict zones.
-- **High-Performance Models**: Employs state-of-the-art deep learning architectures to handle complex and varied datasets.
-- **Scalability**: Designed to handle large volumes of image data and adapt to new types of events.
 
-## Tech Stack
-
-- **Python**: For developing and training machine learning models.
-- **TensorFlow**: For building and deploying deep learning models with transfer learning.
-- **Keras**: For high-level neural network APIs and easier model development.
-- **OpenCV**: For image processing and handling.
+- Real-time data collection from satellite imagery APIs and conflict databases
+- Machine learning-based classification of conflict events
+- Interactive global heatmap for visualizing conflict intensity
+- Continuous updates based on incoming data
 
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Tanisboxed/GeoSentinel.git
+   ```
+   git clone https://github.com/yourusername/GeoSentinel.git
+   cd GeoSentinel
+   ```
+
+2. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Set up the database (PostgreSQL):
+   ```
+   createdb geosentinel
+   ```
+
+4. Set up environment variables (API keys, database URL, etc.) in a `.env` file.
+
+5. Run the data collection scripts:
+   ```
+   python scripts/fetch_satellite_data.py
+   python scripts/fetch_conflict_data.py
+   ```
+
+6. Train the model:
+   ```
+   python models/conflict_classifier.py
+   ```
+
+7. Start the Flask backend:
+   ```
+   python webapp/backend/server.py
+   ```
+
+8. Start the React frontend:
+   ```
+   cd webapp/frontend
+   npm install
+   npm start
+   ```
+
+## Usage
+
+Navigate to `http://localhost:3000` in your web browser to view the GeoSentinel dashboard.
 
 ## Contributing
 We welcome contributions from the community. 
 
 ## Acknowledgements
-Thanks to the contributors and researchers whose work has paved the way for advancements in transfer learning and event classification.
-Special thanks to the open-source communities for their tools and libraries that make this project possible.
+Thanks to the contributors and researchers whose work has paved the way for advancements in transfer learning and event classification. Special thanks to the open-source communities for their tools and libraries that make this project possible.
