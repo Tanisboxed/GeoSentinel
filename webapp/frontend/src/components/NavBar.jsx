@@ -9,7 +9,7 @@ const NavBar = ({ scrollToHome, scrollToAbout, scrollToMap, scrollToFeatures, sc
   return (
     <div className="bg-[#000300] sticky top-0 z-1000">
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-        <h1 className='w-full text-3xl font-bold mx-auto text-[#00df9a] p-3'>GeoSentinel.</h1>
+        <h1 className='w-full text-3xl font-bold mx-auto text-[#00df9a] p-3'>WarLens.</h1>
         <ul className='hidden md:flex'>
             <li className='p-4 cursor-pointer' onClick={scrollToHome}>Home</li>
             <li className='p-4 cursor-pointer' onClick={scrollToAbout}>About</li>
@@ -21,7 +21,7 @@ const NavBar = ({ scrollToHome, scrollToAbout, scrollToMap, scrollToFeatures, sc
             {nav ? <AiOutlineClose size={20}/>: <AiOutlineMenu size={20} /> }
         </div>
         <div className={nav? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%] ease-out duration-500'}>
-            <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>GeoSentinel.</h1>
+            <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>WarLens.</h1>
             <ul className=' uppercase p-4'>
                 <li className='p-4 border-b border-gray-700 cursor-pointer' onClick={() =>{ handleNav(); scrollToHome();}}>Home</li>
                 <li className='p-4 border-b border-gray-700 cursor-pointer' onClick={() =>{ handleNav(); scrollToAbout(); }}>About</li>
