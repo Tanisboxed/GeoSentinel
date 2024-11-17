@@ -56,4 +56,4 @@
 ### **Clone the Repository**
 ```bash
 git clone https://github.com/TanishaJauhari/WarLens.git
-cd GeoSentinel-Surveillance/WarLens/webapp
+cd WarLens/webapp
