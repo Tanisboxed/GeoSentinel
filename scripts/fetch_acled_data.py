@@ -1,8 +1,8 @@
 # import requests
 # import pandas as pd
 
-# EMAIL = 'adithya.pillai16@gmail.com'
-# API_KEY = 'K39bxYHnd8qXAokqJblY'
+# EMAIL = 'yourgmail@gmail.com'
+# API_KEY = 'yourAPIkey'
 # ACLED_URL = 'https://api.acleddata.com/acled/read'  # Use ACLED's API endpoint for dataset
 
 # def fetch_acled_data(start_date="2023-01-01",end_date="2023-12-31", country=None, limit=100000):
@@ -44,8 +44,8 @@ import requests
 import pandas as pd
 from io import StringIO
 
-EMAIL = 'adithya.pillai16@gmail.com'
-API_KEY = 'K39bxYHnd8qXAokqJblY'
+EMAIL = 'yourmail@gmail.com'
+API_KEY = 'yourAPIkey'
 ACLED_URL = 'https://api.acleddata.com/acled/read.csv'
 
 def fetch_acled_data(start_date="2022-01-01", end_date="2022-12-31", country=None, limit=100000):
