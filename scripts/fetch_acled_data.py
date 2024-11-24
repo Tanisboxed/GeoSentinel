@@ -21,7 +21,7 @@
 #     }
 #     try:
 #         response =requests.get(ACLED_URL,headers=headers,params=params)
-#         response.raise_for_status()
+#         response.raise_for_status() 
 #         data =response.json().get('data',[])
 #         print("Data fetched successfully.")
 #         print(f"Data: {data}")
