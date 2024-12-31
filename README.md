@@ -1,8 +1,8 @@
 
-# **WarLens: Real-Time Conflict Surveillance System** 🗺️
+# **GeoSentinel: Real-Time Conflict Surveillance System** 🗺️
 
 ## **Overview**
-**WarLens** is a real-time conflict surveillance and crisis analysis platform that provides actionable insights into global conflict zones. By integrating data from sources like the **ACLED conflict event database** , WarLens offers a comprehensive view of ongoing crises. The project automates data collection, classification, and visualization, aiming to assist decision-makers in understanding and responding to conflict scenarios effectively.
+**GeoSentinel** is a real-time conflict surveillance and crisis analysis platform that provides actionable insights into global conflict zones. By integrating data from sources like the **ACLED conflict event database** , GeoSentinel offers a comprehensive view of ongoing crises. The project automates data collection, classification, and visualization, aiming to assist decision-makers in understanding and responding to conflict scenarios effectively.
 
 ## **Key Features**
 ### 1. **Interactive Heatmap**
@@ -55,5 +55,5 @@
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/TanishaJauhari/WarLens.git
-cd WarLens/webapp
+git clone https://github.com/TanishaJauhari/GeoSentinel.git
+cd GeoSentinel/webapp
